@@ -1,5 +1,12 @@
 ## Λutomatic resize a KVM/Qemu Kali-VM
 
+These black edges are so annoying when they don't disappear
+![1.annoying.png](images/1.annoying.png?raw=true)
+Running the master piece. Btw i didn't want to show my username so i ran it as sudo :D
+![2.running.png](images/2.running.png?raw=true)
+Ahhhh yeeeahhhh!
+![3.works.png](images/3.works.png?raw=true)
+
 **!!** To make a VM automatically resize when changing the size of the window, use **Video VGA** instead of e.g. Virtio. Also it might be a good idea to give it more vram than only 16 mb. Use `sudo virsh edit <my-vm-name>` and adjust `vram` to 65536 / ~64 mb.
 
 <br>
@@ -31,11 +38,3 @@ python3 kali-auto-resizer.py
 #Start a KVM vm named "kali1" with Video Virtio
 #Resize the VM window
 ````
-
-## Demo
-These black edges are so annoying when they don't disappear
-![1.annoying.png](images/1.annoying.png?raw=true)
-Running the master piece. Btw i didn't want to show my username so i ran it as sudo :D
-![2.running.png](images/2.running.png?raw=true)
-Ahhhh yeeeahhhh!
-![3.works.png](images/3.works.png?raw=true)
