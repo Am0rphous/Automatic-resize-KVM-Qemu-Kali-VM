@@ -35,7 +35,7 @@ python3 kali-auto-resizer.py
 ## Demo
 These black edges are so annoying when they don't disappear
 ![1.annoying.png](images/1.annoying.png?raw=true)
-Running the master piece
+Running the master piece. Btw i didn't want to show my username so i ran it as sudo :D
 ![2.running.png](images/2.running.png?raw=true)
 Ahhhh yeeeahhhh!
 ![3.works.png](images/3.works.png?raw=true)
