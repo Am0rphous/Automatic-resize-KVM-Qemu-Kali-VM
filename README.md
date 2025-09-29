@@ -20,3 +20,13 @@ How does it work?
 5. When timer fires it calls virsh qemu-agent guest-exec to run xrandr inside the Kali guest.
 6. Polls guest-exec-status until the guest process finishes.
 7. Decodes base64 stdout/stderr from the guest and logs output, errors and exit info.
+
+
+## Install
+````shell
+git clone https://github.com/Am0rphous/Automatic-resize-KVM-Qemu-Kali-VM/
+cd Automatic-resize-KVM-Qemu-Kali-VM/
+python3 kali-auto-resizer.py
+
+#Start a KVM vm named "kali1" with Video Virtio. Now try resizing the window
+````
