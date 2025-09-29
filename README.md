@@ -1,6 +1,6 @@
 ## Λutomatic resize a KVM/Qemu Kali-VM
 
-**!!** To make a VM automatically resize when changing the size of the window, use Video VGA instead of e.g. Virtio. Also it might be a good idea to give it more vram than only 16 mb. Use `sudo virsh edit <my-vm-name>` and adjust `vram` to 65536 / ~64 mb.
+**!!** To make a VM automatically resize when changing the size of the window, use **Video VGA** instead of e.g. Virtio. Also it might be a good idea to give it more vram than only 16 mb. Use `sudo virsh edit <my-vm-name>` and adjust `vram` to 65536 / ~64 mb.
 
 <br>
 
