@@ -4,7 +4,7 @@
 
 <br>
 
-**Background:** I have several Kali VMs running KVM/Qemu with "Auto resize VM with window" enabled, but no way in hell it would just work. Every time i resized the window black edges appeared. But running `xrandr --output Virtual-1 --auto` within the VM would actually automatically resize the window beautifully. Only problem is i don't have patience doing that every time i resize the windo.
+**Background:** I have several Kali VMs running KVM/Qemu with "Auto resize VM with window" enabled, but no way in hell it would just work. Every time i resized the window black edges appeared. But running `xrandr --output Virtual-1 --auto` within the VM would actually automatically resize the window beautifully. Only problem is i don't have patience doing that every time i resize the window.
 
 <br>
 
