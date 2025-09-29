@@ -28,5 +28,6 @@ git clone https://github.com/Am0rphous/Automatic-resize-KVM-Qemu-Kali-VM/
 cd Automatic-resize-KVM-Qemu-Kali-VM/
 python3 kali-auto-resizer.py
 
-#Start a KVM vm named "kali1" with Video Virtio. Now try resizing the window
+#Start a KVM vm named "kali1" with Video Virtio
+#Resize the VM window
 ````
