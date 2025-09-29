@@ -31,3 +31,8 @@ python3 kali-auto-resizer.py
 #Start a KVM vm named "kali1" with Video Virtio
 #Resize the VM window
 ````
+
+## Demo
+![1.annoying.png](images/1.annoying.png?raw=true)
+![2.running.png](images/2.running.png?raw=true)
+![3.works.png](images/3.works.png?raw=true)
